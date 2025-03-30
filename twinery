@@ -1,0 +1,962 @@
+[
+	{
+		"title": "START",
+		"tags": "",
+		"body": "<<speaker, kertoja>>\nA spaceship flies through the endless cosmos. Everything is completely silent.\nFrom inside the ship, the sound of conversation can be heard.\nInside the ship are two travelers: Trip, an alien from a distant world, and Bip, his loyal robot companion.\nThey’ve left their home planet behind on a desperate mission—to find a rare and vital substance known as naclide (in human terms salt), a resource their world relies on for energy.\nTheir journey has just begun.\n[[DIALOGI 1]]",
+		"position": {
+			"x": "900",
+			"y": "100"
+		},
+		"colorID": 0
+	},
+	{
+		"title": "DIALOGI 1",
+		"tags": "",
+		"body": "<<speaker, trip>>\nIt's been three moons since we left our planet. I hope everyone back home is doing fine.\n<<speaker, bip>>\nWe know this isn't an easy journey, but it's necessary. Our planet cannot survive without naclide.\n[[Yes, you're right. It's just... I miss them all. But I know our mission is far more important than my homesickness. We have to keep going—everyone is counting on us.|Trip1]]\n[[Yeah. It's just... Just hard to believe how far we are gone and how much time this takes. But this is important. Everyone is counting on us so we have to continue the mission.|Trip2]]\n[[Yep. You're right. This is our mission and we have to finish it with honor. Our planet need naclide and we are the ones who get's it. I just hope that everything is good back there.|Trip3]]",
+		"position": {
+			"x": "900",
+			"y": "400"
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Trip1",
+		"tags": "",
+		"body": "<<speaker, trip>>\nI'll just hope that there could be a faster way to end our mission...\n[[I might be able to help with that. I’ll run a search… I think I found a faster route, but we’ll have to bypass the Milky Way.|Bip1]]",
+		"position": {
+			"x": "600",
+			"y": "700"
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Trip2",
+		"tags": "",
+		"body": "<<speaker, trip>>\nI really hope that I can see my friends and family soon as possible...\n[[I might be able to help with that. I’ll run a search… I think I found a faster route, but we’ll have to bypass the Milky Way.|Bip1]]",
+		"position": {
+			"x": "900",
+			"y": "700"
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Trip3",
+		"tags": "",
+		"body": "<<speaker, trip>>\nI wish we can get back soon because I left something very important on our planet...\n[[I might be able to help with that. I’ll run a search… I think I found a faster route, but we’ll have to bypass the Milky Way.|Bip1]]",
+		"position": {
+			"x": "1200",
+			"y": "700"
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Bip1",
+		"tags": "",
+		"body": "<<speaker, bip>>\nThis route is straight, easy and the most important thing - faster. If we use the original route it could take us like twentyfive moon more but if we bypass the Milky Way we could get back our planet in only ten moons. It's less than half of what this mission normally takes.\n[[You mean the actual Milky Way? The place where spaceships go and then disappear? I don’t know… That route gives me the creeps.|Trip4]]",
+		"position": {
+			"x": "900",
+			"y": "1000"
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Trip4",
+		"tags": "",
+		"body": "<<speaker, trip>>\nIt's really a blind spot. The black hole. Spaceship's graveyard. It's hard to even find data on that place.\n[[Yes, but statistically speaking, our probability of encountering danger is low. 97.3% of previous passages have been successful.|Bip2]]",
+		"position": {
+			"x": "900",
+			"y": "1300"
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Bip2",
+		"tags": "",
+		"body": "<<speaker, bip>>\nNothing that I can find about that zone which would support those rumors you just told. It's just an ordinary place in the middle of nothing and it's still - even though I already say that fact - a better and faster option.\n[[Yeah, but that still leaves 2.7%! But… fine. If it helps us get home faster, it helps our mission and our planet. If you’re really sure...|Trip5]]\n[[Are you really sure about this? It's only 2,7% but it's still something. I really don't know if this is a good idea. But it can save some time...|Trip6]]\n[[Well... I'm 2,7% sure this is a dead trap but sure. It saves us some time and we probably can learn something new. If we survive. And if we don't I certainly blame you for it.|Trip7]]",
+		"position": {
+			"x": "900",
+			"y": "1600"
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Trip5",
+		"tags": "",
+		"body": "<<speaker, bip>>\nYes. I'm sure. I just checked the area on my galactic map, and I didn’t detect anything suspicious. So it’s safe and fast.\n[[Just see it's yourself. We are here and here is the Milky Way. Everything looks just the same - only peace and quiet.|Bip3]]",
+		"position": {
+			"x": "600",
+			"y": "1900"
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Trip6",
+		"tags": "",
+		"body": "<<speaker, bip>>\nIt's really the best what we can do. I'm sure about that. My galactic map doesn't see anything suspicious there so we are safe.\n[[You need to give me a little respect. I know what I'm doing because data doesn't lie.|Bip4]]",
+		"position": {
+			"x": "900",
+			"y": "1900"
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Trip7",
+		"tags": "",
+		"body": "<<speaker, bip>>\nOkay. Of course you will but I'm sure that we have nothing to be afraid of. My galactic map is the best guide in the whole galaxy and I don't see anything suspicious in that area.\n[[Data is the only guide to what we need. Data knows everything and helps us in our mission. Remember that.|Bip5]]",
+		"position": {
+			"x": "1200",
+			"y": "1900"
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Bip3",
+		"tags": "",
+		"body": "<<speaker, trip>>\nAlright. I trust you. I’ll input the new coordinates, but for safety, we need to do this quietly and quickly. That way, nothing bad can happen to us.\n[[I’m sure everything will go just fine.|Bip6]]",
+		"position": {
+			"x": "600",
+			"y": "2200"
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Bip5",
+		"tags": "",
+		"body": "<<speaker, trip>>\nSure, sure. Let's do it. If everything goes wrong I can say that I was right and your data was wrong. It's probably worth it. And I can dance a little victory dance.\n[[I’m sure everything will go just fine.|Bip6]]",
+		"position": {
+			"x": "1200",
+			"y": "2200"
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Bip4",
+		"tags": "",
+		"body": "<<speaker, trip>>\nFine. I trust your data. I just wanna remind you about one thing - if we do this it has to be a quiet and quick mission. Got it? We don't want anyone to notice that we're going to pass the Milky Way.\n[[I’m sure everything will go just fine.|Bip6]]",
+		"position": {
+			"x": "900",
+			"y": "2200"
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Bip6",
+		"tags": "",
+		"body": "<<speaker, bip>>\nJust take a seat and let me handle everything. Our mission is soon done and we are home before you even notice that.\n[[ETEENPÄIN]] ",
+		"position": {
+			"x": "900",
+			"y": "2500"
+		},
+		"colorID": 0
+	},
+	{
+		"title": "ETEENPÄIN",
+		"tags": "",
+		"body": "<<speaker, kertoja>>\nTrip and Bip adjust the ship’s flight path to bypass the Milky Way, but just as they are passing by Earth’s solar system, ISAAC launches an attack using a ray weapon. The frequency of the beam interferes with the ship’s navigation systems, and the spacecraft slowly begins to veer off course—heading straight toward Earth.\n[[DIALOGI 2]]",
+		"position": {
+			"x": "900",
+			"y": "2800"
+		},
+		"colorID": 0
+	},
+	{
+		"title": "DIALOGI 2",
+		"tags": "",
+		"body": "<<speaker, trip>>\nUm... Hey Bip. Something’s not right. The console isn’t responding. We’re heading the wrong way!\n<<speaker, bip>>\nI'm trying to hack the console to reset our course!\n<<speaker, trip>>\nNo need to hack it—I think someone took control of our ship and is steering us off course!\n<<speaker, bip>>\nI tried some simple commands but the console didn't take them. Something is drawing us and there's nothing we can do to stop that.\n[[Oh my god! What do we do now? This is the worst thing ever. Why did we even come here? This was a huge mistake!|Trip8]]\n[[I can not believe this. Well... Actually I can. Why did we trust some stupid data when we could just follow the original plan?|Trip9]]\n[[Well... This is not good. This is a total disaster! We are going to die or something worse. I was right. This place is place is a totally dead zone.|Trip10]]",
+		"position": {
+			"x": "900",
+			"y": "3100"
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Trip9",
+		"tags": "",
+		"body": "<<speaker, bip>>\nMy data wasn't warning about this. This is an unexpected and unprecedented event. I really have to update my data about the Milky Way.\n[[Oh really? I can't understand why you trust your data when no one really don't know what is on the Milky Way.|Bip7]]",
+		"position": {
+			"x": "900",
+			"y": "3400"
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Trip8",
+		"tags": "",
+		"body": "<<speaker, bip>>\nJust calm down. I can handle this. It'll just take a couple of minutes because I just have to find the right frequency so that I can... And it's not working.\n[[What do you mean \"it's not working\"? We have to do something or this is really the end of our story.|Bip7]]",
+		"position": {
+			"x": "600",
+			"y": "3400"
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Trip10",
+		"tags": "",
+		"body": "<<speaker, bip>>\nDon't be so overwhelmed with drama. This is not what we want but we have to unite our powers to get out of this situation so that the worst doesn't happend.\n[[Oh right because the worst hasn't happend yet. Only that someone or something just abduck us and now we never get back home.|Bip7]]",
+		"position": {
+			"x": "1200",
+			"y": "3400"
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Bip7",
+		"tags": "",
+		"body": "<<speaker, bip>>\nWait a second… I just scanned the system—it’s completely messed up. It’s not receiving any commands. I think someone just hit us with some weird ultrasound waves. They’re interfering with our navigation and have redirected our course. And I think I know where we’re heading… The waves originated from planet Earth.\n[[Do we know anything about that planet?|Trip11]]",
+		"position": {
+			"x": "900",
+			"y": "3700"
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Trip11",
+		"tags": "",
+		"body": "<<speaker, trip>>\nOr is this going to be an even worse situation? I didn't even know that in the Milky Way lives a smart creatures who can do something like this.\n[[It’s an uncharted area, and no one dares to go there because of the planet's inhabitants. My data suggests they are likely hostile. It’s hard to find reliable information—most who have gone there never returned.|Bip8]]",
+		"position": {
+			"x": "900",
+			"y": "4000"
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Bip8",
+		"tags": "",
+		"body": "<<speaker, bip>>\nAnd that's it. I don't find any specific details about that planet. We are officially on our own now. We have to fix this situation immediately.\n[[Great. Just great. We’re in the dead zone, and now we’ll never get the naclide to our planet. I knew this was a bad idea! Why didn’t we just stick to the original plan? Now we’re either dead or facing something even worse.|Trip12]]",
+		"position": {
+			"x": "900",
+			"y": "4300"
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Trip12",
+		"tags": "",
+		"body": "<<speaker, trip>>\nOur only hope is that the data is wrong and this is just a huge mistake and we can leave without any harm. And probably in every planet there is least one good creature who can help us if things get any worse than this. I really hope so because this cannot be the end of our story.\n[[KERTOJA]]",
+		"position": {
+			"x": "900",
+			"y": "4600"
+		},
+		"colorID": 0
+	},
+	{
+		"title": "KERTOJA",
+		"tags": "",
+		"body": "<<speaker, kertoja>>\nThe ship speeds through Earth’s solar system and eventually approaches the planet itself. As it gets close enough, ISAAC shoots it down.\n[[Bip9]]",
+		"position": {
+			"x": "900",
+			"y": "4900"
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Bip9",
+		"tags": "",
+		"body": "<<speaker, bip>>\n\"Something—or someone—just hit us! The spaceship has been damaged. We have to make an emergency landing!\"\n[[What? Another attack? Oh no. This is the end… Goodbye, world.|Trip13]]",
+		"position": {
+			"x": "900",
+			"y": "5200"
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Trip13",
+		"tags": "",
+		"body": "<<speaker, trip>>\nThis cannot get any worse. And now I'm sure it can because it always get worse when you say it out loud…\n[[We’re entering Earth's atmosphere! The spaceship won’t make it. We’re going to crash!|Bip10]]",
+		"position": {
+			"x": "900",
+			"y": "5500"
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Bip10",
+		"tags": "",
+		"body": "<<speaker, bip>>\nHold on because this isn't going to be the best landing. Put the seat belts on so your organic body doesn't get hurt.\n[[Why doesn't this situation surprise me at all? This is really the worst day ever.|Trip14]]",
+		"position": {
+			"x": "900",
+			"y": "5800"
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Trip14",
+		"tags": "",
+		"body": "<<speaker, trip>>\nSomebody help! We’re gonna die!\n[[KERTOJA1]]",
+		"position": {
+			"x": "900",
+			"y": "6100"
+		},
+		"colorID": 0
+	},
+	{
+		"title": "KERTOJA1",
+		"tags": "",
+		"body": "<<speaker, kertoja>>\nThe ship crashes. A roar of impact echoes—then everything goes black.\nSome time passes, then the hatch opens. Trip climbs out first, unsteady but alert. Bip follows, sparking and damaging. They look around. Unfamiliar world. Unknown dangers. They need to act—now.\n[[Y-you... ha-have to... h-hide the... sp-spaceship.|Bip11]]",
+		"position": {
+			"x": "900",
+			"y": "6400"
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Bip11",
+		"tags": "",
+		"body": "<<speaker, bip>>\nIt-t-t-t's-s-s the-he-he-he mostttt im-im-important thing-ing-ing righttttt no-no-now.\n[[Yes. You're right, Bip. That's a good start... but Bip, are you okay? You don't sound too good...|Trip15]]",
+		"position": {
+			"x": "900",
+			"y": "6700"
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Trip15",
+		"tags": "",
+		"body": "<<speaker, trip>>\nI think it's best if you don't help. I don't wanna that your situation gets any worse. It's obviosly that you got some damageds when we landed...\n[[No-o-o-ou... I-I-I... w-want... t-to... he-help...|Bip12]]",
+		"position": {
+			"x": "900",
+			"y": "7000"
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Bip12",
+		"tags": "",
+		"body": "<<speaker, bip>>\nI-I-I ca-can han-han-handle it-t-t-t. I-I ca-can-n-n b-be-e-e us.useful-l-l-l.\n[[You're broken. I need to fix you, but I have to hide the spaceship too...|Trip16]]",
+		"position": {
+			"x": "900",
+			"y": "7300"
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Trip16",
+		"tags": "",
+		"body": "<<speaker, trip>>\nWhat I should do first? This is the most important decision...\n[[Hide the spaceship first|Vaihtoehto1]]\n[[Fix the Bip first|Vaihtoehto2]]",
+		"position": {
+			"x": "900",
+			"y": "7600"
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Vaihtoehto1",
+		"tags": "",
+		"body": "<<speaker, trip>>\nI have to hide the spaceship first. You can wait inside.\n<<speaker, bip>>\nA-alright... I-I'll g-go... to the... sh-ship...\n[[Puzzle1]]",
+		"position": {
+			"x": "700",
+			"y": "7900"
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Vaihtoehto2",
+		"tags": "",
+		"body": "<<speaker, trip>>\nI need to fix you first. I need your advice on how to hide the spaceship.\n<<speaker, bip>>\nA-alright... I-I can... sh-show... w-where... th-the... sp-spare p-parts... a-are...\n[[Puzzle2]]",
+		"position": {
+			"x": "1100",
+			"y": "7900"
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Puzzle1",
+		"tags": "",
+		"body": "Puzzle 1 alkaa\n[[Alright, now let's fix you. Where are your spare parts?|Eteneminen]]\n[[Epäonnistuminen]]\n[[Puzzlet suoritettu]] ",
+		"position": {
+			"x": "700",
+			"y": "8200"
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Puzzle2",
+		"tags": "",
+		"body": "Puzzle 2 alkaa\n[[Now we have to hide the spaceship. Can you help me?|Eteneminen1]]\n[[Puzzlet suoritettu]]",
+		"position": {
+			"x": "1100",
+			"y": "8200"
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Eteneminen",
+		"tags": "",
+		"body": "<<speaker, bip>>\nY-ye-yes... Th-th-there... a-are... the p-p-parts... y-you ne-need...\n[[Puzzle2]] ",
+		"position": {
+			"x": "700",
+			"y": "8400"
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Puzzlet suoritettu",
+		"tags": "",
+		"body": "<<speaker, trip>>\nAlright Bip. Can you scan the spaceship? So we can know which parts are broken.\n<<speaker, bip>>\nYes. I´m already scanning. It takes a couple of minutes before the data is ready.\n<<speaker trip>>\nGood. The crash was pretty bad. I'm sure the spaceship needs some fixing.\n<<speaker, bip>>\nScan complete. Good news: the spaceship is mostly intact. Bad news: we lost a few key components during the landing. To escape, we need three things. First, a solar sail, because the ship isn't getting enough energy. Second, a new motor, since we lost one during impact. Third, a heat-regulating shield, because one of them is broken.\n[[Alright... We need to get moving. Our landing wasn’t a coincidence, so I’m pretty sure someone is tracking us. First, we need disguises. Bip, do we know anything about the creatures on this planet?|Trip17]]\n[[Okay. We need to find a way to fix our ship. And we have to be fast because I'm kinda sure that our landing here isn't just a funny coincidence. Someone wants us and I'm sure that person isn't on the good side.|Trip18]]\n[[Well... It's probaply the best decicion if we keep moving. I'm sure that the person who shot us down isn't very nice. We have to be very carefull and we don't want to get too much attention before the ship is fixed.|Trip19]]",
+		"position": {
+			"x": "900",
+			"y": "8600"
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Eteneminen1",
+		"tags": "",
+		"body": "<<speaker, bip>>\nYes. I can help.\n[[Puzzle1]] ",
+		"position": {
+			"x": "1100",
+			"y": "8400"
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Epäonnistuminen",
+		"tags": "",
+		"body": "<<speaker, kertoja>>\nYou took too long to hide the ship. A sudden drone buzz breaks the silence. The troops of ISAAC have located your ship. You’ve been captured.\nDo you want to try again?\n- Return to the previous choice  (muuta valintoja)\n- Accept your fate\n[[Trip16]] \n[[Pelin loppu]]",
+		"position": {
+			"x": "400",
+			"y": "8250"
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Pelin loppu",
+		"tags": "",
+		"body": "TAUSTA TUMMENEE -> (Trip ja Bip vankilassa) -> THE END",
+		"position": {
+			"x": "450",
+			"y": "8500"
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Trip17",
+		"tags": "",
+		"body": "<<speaker, trip>>\nWe have to be vigilant and ready for everything!\n[[My data suggests that the inhabitants are less advanced than us. Their technology isn’t as developed, but they might have materials we can use to repair the ship. My data also indicates that they are probably hostile, so we have to be careful.|Bip13]]",
+		"position": {
+			"x": "600",
+			"y": "8900"
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Trip18",
+		"tags": "",
+		"body": "<<speaker, trip>>\nWe can not trust anyone here. Now - you and me - we are on our own.\n[[My data suggests that the inhabitants are less advanced than us. Their technology isn’t as developed, but they might have materials we can use to repair the ship. My data also indicates that they are probably hostile, so we have to be careful.|Bip13]]",
+		"position": {
+			"x": "900",
+			"y": "8900"
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Trip19",
+		"tags": "",
+		"body": "<<speaker, trip>>\nThis is a strange place for us. We have to be ready for everyhing!\n[[My data suggests that the inhabitants are less advanced than us. Their technology isn’t as developed, but they might have materials we can use to repair the ship. My data also indicates that they are probably hostile, so we have to be careful.|Bip13]]",
+		"position": {
+			"x": "1200",
+			"y": "8900"
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Bip13",
+		"tags": "",
+		"body": "<<speaker, bip>>\nIt's complicated to find any good data about this planet because most of the information is from rumors or hearsays. I try to figure things out but it's hard because I'm not sure what is false and what is true.\n[[Yeah, good to know. We have to be careful. It's probably best if no one notice that we are not from this planet. So where do we find disguises?|Trip20]]",
+		"position": {
+			"x": "900",
+			"y": "9200"
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Trip20",
+		"tags": "",
+		"body": "<<speaker, trip>>\nOr do we even need a disguise? Probably every creatures in this planet doesn't try to kill or catch us. I hope.\n<<speaker, bip>>\nWell... My data indicates there’s a small village nearby—at least, I think so. Before we enter, I suggest we find some disguise clothing to help us blend in. We don’t know how they might react to us.\n[[Enter the village now|Huono valinta]]\n[[Find disguises first|Hyvä valinta]]",
+		"position": {
+			"x": "900",
+			"y": "9500"
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Huono valinta",
+		"tags": "",
+		"body": "<<speaker, trip>>\nThat's not necessary. I’m sure everyone here is nice and welcoming. Finding disguises would take too much time, so I think we should just walk into the town. We need to fix the spaceship fast.\n<<speaker, bip>>\nAlright, we’ll go with your plan. I’m sure the creatures on this planet are friendly and welcoming. They probably shot us down just to say ‘hello.’ Just don’t blame me if we end up in trouble.\n<<speaker, trip>>\nDon't be so dramatic. Everything will be fine. By the way, Bip, do you know what language they speak? How can we communicate if we don’t understand them?\n<<speaker, bip>>\nNo need to stress. I’ll translate everything and guide you through it. Just let me hide under your shirt and I’ll handle the conversation.\n<<speaker, trip>>\nGood! Then let's go, Bip.\n[[KERTOJA2]]",
+		"position": {
+			"x": "700",
+			"y": "9800"
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Hyvä valinta",
+		"tags": "",
+		"body": "<<speaker, trip>>\nThat’s probably a good idea. Let’s find some disguises first. Come on, Bip—let’s go.\n<<speaker, kertoja>>\nTrip and Bip start walking toward the nearby village.\nAs they reach the outskirts of the village, they spot a dump. It’s not much—but to them, it seems like the perfect place to begin searching for something to blend in.\n<<speaker, trip>>\nI think we can find some clothes there. What do you think, Bip?\n<<speaker, bip>>\nI think so too. Let's get to it.\n[[Puzzle3]]",
+		"position": {
+			"x": "1100",
+			"y": "9800"
+		},
+		"colorID": 0
+	},
+	{
+		"title": "KERTOJA2",
+		"tags": "",
+		"body": "<<speaker, kertoja>>\nTrip and Bip start walking toward the nearby village. On the way, they encounter a friendly-looking, unfamiliar creature.\n<<speaker, trip>>\nHello there, my new fiend... erm, I mean friend. How are you? Do you happen to know anything about rocket science?\n[[Moo. Moo.|Lehmä]]\n[[Oink. Oink.|Possu]]\n[[Baa. Baa.|Lammas]]",
+		"position": {
+			"x": "700",
+			"y": "10100"
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Lehmä",
+		"tags": "",
+		"body": "<<speaker, trip>>\nInteresting, nice... um… Bip, what did it just say?\n<<speaker, bip>>\nIt literally just says moo, nothing else.\n<<speaker, trip>>\nWell... That's no good. Maybe another creature can translate. Like that one over there—hey, you!\n<<speaker, villager>>\nWhat the heck?! An alien!\n<<speaker, trip>>\nHello! We come in peanuts. I mean… in peace.\n<<speaker, villager>>\nAaah... Run, everyone! There’s a green alien, and it’s trying to eat my brains!\n<<speaker, trip>>\nThat’s definitely not what I eat, but… Well… I know what you think right now but let me explain…\n<<speaker, villager>>\nIt can read my mind. Everyone, run!\n[[KERTOJA3]]",
+		"position": {
+			"x": "100",
+			"y": "10400"
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Lammas",
+		"tags": "",
+		"body": "<<speaker, trip>>\nSo... Nice and fascinating... Um... Bip. Translate please?\n<<speaker, bip>>\nIt literally just says baa, nothing else.\n<<speaker, trip>>\nSo you mean that this very... Um... Fluffy and hairy creature speak a language that you don't understand. Great. We have to find help - like that one over there. Hey you!\n<<speaker, villager>>\nWhat the heck?! An alien!\n<<speaker, trip>>\nHello! We come in peanuts. I mean… in peace.\n<<speaker, villager>>\nAaah... Run, everyone! There’s a green alien, and it’s trying to control me.\n<<speaker, trip>>\nThat’s definitely not what I can do but… Well… I know this is complicated and you're probably feeling confused…\n<<speaker, villager>>\nIt can control my feelings. Everyone, run!\n[[KERTOJA3]]",
+		"position": {
+			"x": "700",
+			"y": "10400"
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Possu",
+		"tags": "",
+		"body": "<<speaker, trip>>\nWell... Um... That's nice. Um... Bip? Little help please?\n<<speaker, bip>>\nIt literally just says oink, nothing else.\n<<speaker, trip>>\nSo... It's uses some very unique language and even you don't understand that creature. Nice. We have to figure this out... Maybe we can ask help from that one over there - hey, you!\n<<speaker, villager>>\nWhat the heck?! An alien!\n<<speaker, trip>>\nHello! We come in peanuts. I mean… in peace.\n<<speaker, villager>>\nAaah... Run, everyone! There’s a green alien, and it’s trying to abduct us.\n<<speaker, trip>>\nThat’s definitely not what is happening here but… Well… I know what this looks like but I can explain…\n<<speaker, villager>>\nIt's trying to manipulate me. Everyone, run!\n[[KERTOJA3]] ",
+		"position": {
+			"x": "400",
+			"y": "10400"
+		},
+		"colorID": 0
+	},
+	{
+		"title": "KERTOJA3",
+		"tags": "",
+		"body": "<<speaker, kertoja>>\nTrip’s presence causes mass hysteria, which leads to troops of ISAAC to locate him and Bip. You are captured and taken to a secret bunker.\nDo you want to try again?\n- Return to the previous choice  (muuta valintoja)\n- Accept your fate\n[[Trip20]]\n[[Pelin loppu1]]",
+		"position": {
+			"x": "400",
+			"y": "10700"
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Pelin loppu1",
+		"tags": "",
+		"body": "TAUSTA TUMMENEE -> (Trip ja Bip vankilassa) -> THE END",
+		"position": {
+			"x": "450",
+			"y": "11000"
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Puzzle3",
+		"tags": "",
+		"body": "Puzzle 3 alkaa\n[[Puzzle3 suoritettu]]",
+		"position": {
+			"x": "1150",
+			"y": "10150"
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Puzzle3 suoritettu",
+		"tags": "",
+		"body": "<<speaker, trip>>\nAlright, now no one will know we’re outsiders. By the way, Bip, do you know what language they speak? How can we communicate if we don’t understand them?\n<<speaker, bip>>\nNo need to stress. I’ll translate everything and guide you through it. Just let me hide under your shirt and I’ll handle the conversation.\n<<speaker, trip>>\nGood idea, Bip. Let's do it. Do we know anything about this planet's inhabitants?\n<<speaker, bip>>\nMy data tells me that the dominant species on this planet call themselves humans. So you’ll need to act like one of them. I’ll give you the answers in one of their most widely used languages—English.\n[[KERTOJA4]]",
+		"position": {
+			"x": "1100",
+			"y": "10400"
+		},
+		"colorID": 0
+	},
+	{
+		"title": "KERTOJA4",
+		"tags": "",
+		"body": "<<speaker, kertoja>>\nNow that Trip and Bip are disguised, they can blend in with the villagers. However, they know nothing about the locals or their customs, so their behavior and mannerisms might stand out—and it could cause some... unexpected reactions. On the way, they encounter friendly-looking creatures on the other side of a fence along the path.\n[[Moo. Moo.|Lehmä2]]\n[[Oink. Oink.|Possu2]]\n[[Baa. Baa.|Lammas2]]",
+		"position": {
+			"x": "1100",
+			"y": "10700"
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Lehmä2",
+		"tags": "",
+		"body": "<<speaker, trip>>\nWhat did it say? Can you translate, Bip?\n<<speaker, bip>>\nIt just says ‘moo moo.’ Either it’s incredibly smart and speaking a new language, or it’s just making random sounds.\n<<speaker, trip>>\nLet’s ask that one over there. Maybe it can explain what this creature means. Hey, you! Can you tell me what this majestic creature is trying to say?\n[[Baa. Baa.|Lammas3]]",
+		"position": {
+			"x": "800",
+			"y": "11000"
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Possu2",
+		"tags": "",
+		"body": "<<speaker, trip>>\nUm... Bip. What does it say? Translate please.\n<<speaker, bip>>\nIt literally just says 'oink oink'. It doesn't mean anything. This is either new and non-ordinary language or just some random sounds.\n<<speaker, trip>>\nOkay. Let's see. We need to figure this out. Maybe some other creature can translate this to us. Like that one, over there. Hey you! Can you tell me what this creature is trying to tell me?\n[[Moo. Moo.|Lehmä3]]",
+		"position": {
+			"x": "1100",
+			"y": "11000"
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Lammas2",
+		"tags": "",
+		"body": "<<speaker, trip>>\nUmm... Nice. Hey Bip. Can you translate?\n<<speaker, bip>>\nIt only says 'baa baa'. What does that even mean? Is this some new and super rare language or is this creature just too dumb to speak some real language?\n<<speaker, trip>>\nWell... New plan. We have to find some other creature to translate what this creature speaks to us if that's even possible. There is another creature. Hey you! Do you know what this creature is trying to say?\n[[Oink. Oink.|Possu3]]",
+		"position": {
+			"x": "1400",
+			"y": "11000"
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Lammas3",
+		"tags": "",
+		"body": "<<speaker, trip>>\nUm, hello... Bip, help?\n<<speaker, bip>>\nNot much help there either. It’s probably just as confused as the last one. But look, Trip, both of these creatures are behind gates. They’re not humans. I think these are probably servants, like the ones who help us back home.\n<<speaker, trip>>\nSo, they’re like... workers? Like the slime slogs on our planet?\n<<speaker, bip>>\nExactly. We need to find their masters. They're humans.\n[[KERTOJA5]]",
+		"position": {
+			"x": "800",
+			"y": "11300"
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Lehmä3",
+		"tags": "",
+		"body": "<<speaker, trip>>\nSo... Um... Hi. Bip, little help?\n<<speaker, bip>>\nThis doesn't help us at all. This is just much more confusing. I cannot understand either of these creatures so we have to think what we do next. But hey, Trip. I just figured something out. These creatures are locked in a fenced area. So they are not humans but some kind servants.\n<<speaker, trip>>\nSo, they’re like... workers? Like the slime slogs on our planet?\n<<speaker, bip>>\nExactly. We need to find their masters. They're humans.\n[[KERTOJA5]] ",
+		"position": {
+			"x": "1100",
+			"y": "11300"
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Possu3",
+		"tags": "",
+		"body": "<<speaker, trip>>\nWell... This isn't helping at all. Hey Bip?\n<<speaker, bip>>\nI still don't understand. This is like that other creature. It's just making some random sounds. But hey Trip. As you see these creatures are behind the locks so I'm pretty sure that they are not human. They are some kind of servants or helpers or slaves or something.\n<<speaker, trip>>\nSo, they’re like... workers? Like the slime slogs on our planet?\n<<speaker, bip>>\nExactly. We need to find their masters. They're humans.\n[[KERTOJA5]]",
+		"position": {
+			"x": "1400",
+			"y": "11300"
+		},
+		"colorID": 0
+	},
+	{
+		"title": "KERTOJA5",
+		"tags": "",
+		"body": "<<speaker, kertoja>>\nJust as they finish their conversation, a stranger suddenly appears, approaching the creatures with food.\n<<speaker, trip>>\nUm... Hello. Are you the faster, I mean the master of these creatures?\n<<speaker, villager colson>>\nIf you're asking if I'm the owner, then yes. Are you okay? You seem... a little new around here.\n<<speaker, trip>>\nYes, I’m new, and it's nice to meat you. Nice—uh, I mean, nice to meet you. So, you're human?\n<<speaker, villager colson>>\nYes... Just like you and everyone else around here. Why do you ask?\n<<speaker, trip>>\nNot really a reason. I just loaf—I mean LOVE being human. It’s so great and awesome…\n<<speaker, villager colson>>\nRight... That’s a weird way to put it, but I don’t have time to care. I need to feed my animals?\n<<speaker, trip>>\nYeah, yeah... Alright. Wait, what’s that creature over there?\n<<speaker, villager colson>>\nIt’s just a cat. Um... Wait... You’ve really never seen cats before?\n<<speaker, trip>>\nAh cats, yes.. The most majestic creatures —  the rulers of Earth.\n[[KERTOJA6]]",
+		"position": {
+			"x": "1100",
+			"y": "11600"
+		},
+		"colorID": 0
+	},
+	{
+		"title": "KERTOJA6",
+		"tags": "",
+		"body": "<<speaker, kertoja>>\nTrip and Bip watch the cat in awe for a moment. They see how humans treat those majestic creatures. Humans do everything for these creatures so now Trip and Bip think that cat's are the real rulers of planet Earth. After this moment Trip glances at the villager, who is watching, looking increasingly confused.\n<<speaker, trip>>\nUh... thank you! Have a god—good day!\n<<speaker, kertoja>>\nTrip quickly turns and hurries away, feeling a little embarrassed.\n<<speaker, trip>>\nBy the look of those humans, I think we got the whole ruler thing wrong.\n<<speaker, bip>>\nYeah, you're right. My data must be outdated. We’ll have to update it when we get back home. Apparently, humans don’t have rulers... or do they? Well, maybe we´ll find out later. Let's continue forward.\n[[ETEENPÄIN2]]",
+		"position": {
+			"x": "1100",
+			"y": "11900"
+		},
+		"colorID": 0
+	},
+	{
+		"title": "ETEENPÄIN2",
+		"tags": "",
+		"body": "<<speaker, kertoja>>\nIt’s small and quiet. The houses are made of xxxxxxx(TÄHÄN TARKENNUS KUN TIEDETÄÄN GAAFIKOIDEN PIIRROKSISTA)\n A few villagers wander about, chatting, working, or simply enjoying the day.\nTo Trip and Bip, it feels strange—yet peaceful. They exchange a look.\n This is definitely not like home.\n[[Hey! You must be new in the village. How are you?|Villager Nicola]]\n[[Hello, new friend. Where are you from?|Villager Lise]]",
+		"position": {
+			"x": "1100",
+			"y": "12200"
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Villager Nicola",
+		"tags": "",
+		"body": "<<speaker, kertoja>>\nBip translates the question to Trip and gives him the proper response.\n<<speaker, trip>>\nWell... It’s nice to meet you. I’m... goose.\n<<speaker, villager nicola>>\nYou’re what?\n<<speaker, trip>>\nI mean... I’m good. Not a goose. Of course not a goose! Um… Do you know where I’am?\n<<speaker, villager nicola>>\nYou don't know where you are? Are you lost little fella? I know a couple of people who can help you if you are lost.\n<<speaker, trip>>\nI'm not a host. LOST! Okay, for real... I knot... NOT. I mean I don't know where I'm and I dope - hope - that you could tell me.\n<<speaker, villager nicola>>\nWell... Yeah I can tell you where you are but first I have to say that you kinda have a unique accent. Are you a tourist?\n<<speaker, trip>>\nOf course. Yeah. I'm a tourist. And I'm definitely a frog on this planet. I mean from this planet. I mean… Bye!\n[[Hello, fellow nerd villager! Are you new? I’ve never seen you before.|Nerd Newton]]",
+		"position": {
+			"x": "900",
+			"y": "12500"
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Villager Lise",
+		"tags": "",
+		"body": "<<speaker, kertoja>>\nBip translates the question to Trip and gives him the proper response.\n<<speaker, trip>>\nWell... I am, uh... from... Diji... Digi... Digiboot! Yes, from Digiboot.\n<<speaker, villager lise>>\nDigiboot? Do you mean Djibouti?\n<<speaker, trip>>\nNo, no! I mean Digiboot. It’s a small island... in the middle of the Pacifist - PACIFIC - Ocean or something. You probably don’t know it. It’s kind of a new country, you know.\n<<speaker, villager lise>>\nOh, I see. That’s interesting. What kind of island is it?\n<<speaker, trip>>\nWell... it’s nice and a tool. I mean, cool. I mean, it's a cold place. Very, very cold. There are many pingpong—I mean penguins—and many, many polar breads... I mean bears.\n<<speaker, villager lise>>\nSounds interesting. Do you want to tell me more?\n<<speaker, trip>>\nIt could be nike—I mean nice—but actually, I should be somethere... welsh... I mean somewhere else. Ring now... I mean right now. Bye!\n<<speaker, kertoja>>\nTrip and Bip continue their journey.\n[[Hey! Are you hungry? Do you want some cake?|Baker Benson]]",
+		"position": {
+			"x": "1300",
+			"y": "12500"
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Baker Benson",
+		"tags": "",
+		"body": "<<speaker, trip>>\nThat would be a fairy nice, thank you. This cake is really... goose.\n<<speaker, baker benson>>\nIt’s what?\n<<speaker, trip>>\nI mean... very nice. And it’s good. I mean... very nice. And it’s good. What’s your secret?\n<<speaker, baker benson>>\nSo it's kinda easy. Okay so when you start to make the cake you have to first... Wait. Are you even listen to me?\n<<speaker, trip>>\nOf course I lizard. Listen. I just watched that... Um... Chili - CHILD - over there. He has quite big eyes like me.\n<<speaker, baker benson>>\nOh. That kid has what old people call bottle-bottom glasses. They make eyes look really big. I can see that you have those kinds of glasses too.\n<<speaker, trip>>\nYeah! Of course! I mean... Of course I ask that only because I have a same glasses as his. But now I'm in hurray - hurry - so I have to go. Ring away. RIGHT! I mean... bye!\n[[KERTOJA7]] ",
+		"position": {
+			"x": "1300",
+			"y": "12800"
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Nerd Newton",
+		"tags": "",
+		"body": "<<speaker, trip>>\nHello to you too, a fellow... human person. Yes, I’m new. And it’s nice to meat - meet - you.\n<<speaker, nerd newton>>\nYou have a very unique accent. Can I ask where you’re from?\n<<speaker, trip>>\nYou can knot. Not! It’s a secretary... I mean secret. But what are those things in your eyes?\n<<speaker, nerd newton>>\nOh, these? Just my grandma’s old bottle-bottom glasses. They help me see, but they make my eyes look huge. It’s kinda embarrassing. But why do you ask? You have the same kind of glasses as me... or do you really have eyes that big?\n<<speaker, trip>>\nYes. I mean knot. I mean not. I mean of course, I have a battle-bottom classic. I mean bottle-bottom glasses.\n<<speaker, nerd newton>>\nRight... Well... I have to go now. Um... goodbye.\n<<speaker, trip>>\nGoodbye, fellow hound friend. I mean human friend.\n[[KERTOJA7]]",
+		"position": {
+			"x": "900",
+			"y": "12800"
+		},
+		"colorID": 0
+	},
+	{
+		"title": "KERTOJA7",
+		"tags": "",
+		"body": "<<speaker, kertoja>>\nMeanwhile in the base of an evil organization, where evil humans makes plans to capture Trip and Bip.\nAs Trip and Bip continue to explore the village, a dark plan is unfolding at ISAAC's base.\nInside, Winifred weaves her dark schemes against Trip and Bip. She has sent her forces to search the area, using ISAAC's tracking systems to pinpoint the location of their crashed spaceship.\nWinifred's plan is clear—she aims to seize the alien technology aboard the ship and use it to conquer the world.\n[[Soon... very soon, I will rule the world! With alien technology at my fingertips, I can conquer the entire universe. Finally, everything will be mine. Only mine.|Winifred]]",
+		"position": {
+			"x": "1100",
+			"y": "13100"
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Winifred",
+		"tags": "",
+		"body": "<<speaker, winifred>>\nEver since my dear husband tragically passed away, I have finally taken control of this ridiculous space agency. And now, finally, I can make all my dreams come true. So many people have laughed at me. Humiliated me. But soon, I will have my revenge.\"\nEverything I have ever wanted—money, power, honor, absolute control—will soon be in my grasp. And if anyone dares to stand in my way... well, I will make sure their life becomes a living nightmare. Once I take my rightful place as ruler of the universe, no one will ever mock me again.\n<<speaker, kertoja>>\nWhile Winifred's monologue continues inside her office, Claude—an aging scientist at ISAAC—stays hidden behind the door, his ear pressed against the wood, listening intently. He’s had his suspicions about her intentions for a while, and now, with her words confirming his fears, he grasps the full extent of her betrayal.\n[[Oh no. This is bad... and it's only getting worse. I knew she was ruthless, but this? This is pure madness.|Claude astuu mukaan]]",
+		"position": {
+			"x": "1100",
+			"y": "13400"
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Claude astuu mukaan",
+		"tags": "",
+		"body": "<<speaker, winifred>>\nAnd finally, I can show my family that I am better than my perfect big brother. Always the golden child. Always the best at everything. The one, who never makes mistakes. Ugh, sickening. But soon, the tables will turn!\nI will bask in glory with my charisma and minions. And of course, thanks to that alien—even if he doesn’t know he’s helping me.He’s just the latest in a long line of foolish visitors. Every alien foolish enough to stray too close to Earth's solar system is now mine. And with the technology I extract, I will build the ultimate weapon. A force so powerful that every civilization in the universe will bow before me!\n<<speaker, kertoja>>\nWinifred throws her hands into the air dramatically, laughing once again, her voice echoing with dark triumph. But before she can continue, two of her subordinates step forward, interrupting her monologue.\n[[Um... Madam. I think we’ve found it.|Winifredin alaiset]]",
+		"position": {
+			"x": "1100",
+			"y": "13700"
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Winifredin alaiset",
+		"tags": "",
+		"body": "<<speaker, winifred>>\nWell, it’s about time. Where is my spaceship?\n<<speaker, subordinate noah>>\nWell… we don’t know the exact location, but our radar indicates it’s somewhere in this area, close to our base.\n<<speaker, subordinate leah>>\nBut, we found this broken piece of a shield. We think it came from the spaceship, it’s probably badly damaged.\n<<speaker, winifred>>\nGood. Good. Take the shield into the “room we don’t have”—if you know what I mean. Get it repaired and studied. I want to know everything about it. Now, let's get to it! Find the airship!\n<<speaker, subordinate leah and noah>>\nWe’re leaving right away, madam! You can count on us!\n<<speaker, winifred>>\nI really hope so... or else.\n<<speaker, kertoja>>\nWinifred’s troops set off to find the spaceship, while Claude sneaks back to his duties, careful not to be caught eavesdropping on Winifred. Claude begins to think of a way to stop Winifred’s plans.\n[[This is bad. I have to do something to help that poor alien.|Clauden suunnitelma]]",
+		"position": {
+			"x": "1100",
+			"y": "14000"
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Clauden suunnitelma",
+		"tags": "",
+		"body": "<<speaker, kertoja>>\nClaude returns to his desk. He opens a drawer and pulls out schematics for a radar jammer—a device he can use to slow down Winifred’s forces and buy some time for the alien to escape.\n<<speaker, claude>>\nI have to do this. No one else will. But I can’t get caught. If she even suspects something, I’m finished. Anyone here could be one of her spies... I have to be careful.\n<<speaker, kertoja>>\nClaude grabs the blueprints, glances around to ensure no one is watching, and begins preparing to carry out his plan\n[[Puzzle4]]",
+		"position": {
+			"x": "1100",
+			"y": "14300"
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Puzzle4",
+		"tags": "",
+		"body": "Puzzle 4 alkaa\n[[Puzzle4 suoritettu]]",
+		"position": {
+			"x": "1150",
+			"y": "14600"
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Puzzle4 suoritettu",
+		"tags": "",
+		"body": "[[ETEENPÄIN3]]",
+		"position": {
+			"x": "1150",
+			"y": "14800"
+		},
+		"colorID": 0
+	},
+	{
+		"title": "ETEENPÄIN3",
+		"tags": "",
+		"body": "<<speaker, kertoja>>\nMeanwhile, Trip and Bip wander through the village, engaging with the locals along the way, unaware of the danger closing in. After some time, they meet a villager who claims to have found one of the parts that fell from their ship. However, the villager demands a favor in return before handing it over to Trip and Bip.\n<<speaker, trip>>\nWell... Hello, you. A feather—uh, I mean a fellow human being. Have you seen anything strange lately?\n<<speaker, villager joy>>\nActually, yes. I found this weird object while working in the fields this morning. I have no idea what it is.\n<<speaker, trip>>\nSo if you don’t need it... Can I half it? Have! I mean have it?\n<<speaker, villager joy>>\nUm... Sure, but why? Do you even know what to do with it?\n<<speaker, trip>>\nI do not. But it’s slimy—uh, I mean shiny. And prettyfull—I mean beautiful. It could be perfect for my cookielection—uh, I mean collection. I like collecting the shiny weird things people find in their fields, you know...\n<<speaker, villager joy>>\nOkay... sure. But if you want it, you’ll have to help me with something first.\n<<speaker, trip>>\nOkay, sure! What do you knead? I mean... need?\n<<speaker, villager joy>>\nWell... as you can see, I have six sacks of seeds, and I need to move them over there. But they must stay in the same order, from largest to smallest, because the smallest sacks could break under the heavier ones.\n<<speaker, trip>>\nOkay, I can fry that. Try! I mean try.\n[[Puzzle5]]",
+		"position": {
+			"x": "1100",
+			"y": "15000"
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Puzzle5",
+		"tags": "",
+		"body": "Puzzle 5 alkaa\n[[Puzzle5 suoritettu]]",
+		"position": {
+			"x": "1150",
+			"y": "15300"
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Puzzle5 suoritettu",
+		"tags": "",
+		"body": "<<speaker, villager joy>>\nAlright, you’ve done it. Here’s the part you were looking for.\n<<speaker, kertoja>>\nThe villager hands over the solar sail part. Fortunately, it’s still intact.\n<<speaker, villager joy>>\nI don’t know why you need it so badly, but I don’t have any use for this strange piece of... whatever it is. Maybe you collect weird things... I’m not going to use it myself, so go ahead.\n<<speaker, trip>>\nThank you! You’re a lifesaver!\n[[Hello. Have you seen anything... not ordinary lately? Or are there any new people in town?|Claude saapuu kylään]]",
+		"position": {
+			"x": "1100",
+			"y": "15500"
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Claude saapuu kylään",
+		"tags": "",
+		"body": "<<speaker, villager rollie>>\nNo. This is a really ordinary and kinda boring village. Nothing interesting ever happens here. But we do have a new villager. He’s... kinda strange, but nice. You could talk to him.\n<<speaker, claude>>\nOh, thank you very much.\n[[Puzzle6]]",
+		"position": {
+			"x": "1100",
+			"y": "15800"
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Puzzle6",
+		"tags": "",
+		"body": "Puzzle 6 alkaa\n[[Puzzle6 suoritettu]]",
+		"position": {
+			"x": "1150",
+			"y": "16100"
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Puzzle6 suoritettu",
+		"tags": "",
+		"body": "<<speaker, trip>>\nOh... Hello. Howl are you? I mean how are you?\n<<speaker, claude>>\nUm… Hey, you. I’ve been looking for you. I know who—or should I say what—you are\n<<speaker, trip>>\nUm… What? I don’t knot what you’re walking about. I mean... I don’t know what you’re talking about. I’m just some ordinary gun—I mean guy—who doesn’t know the lagguage yet. I mean... language yet. Yeah, that’s what I was trying to say.\n<<speaker, claude>>\nYou don’t need to lie to me. I know you’re not from here. And that’s why I want to help you.\n<<speaker, trip>>\nYou’re right. I’m not from hear—I mean here. I’m from Digiboot. It’s a small island in...\n<<speaker, claude>>\nI don’t think so. You’re from up there. From space. From another planet. Do you understand what I’m trying to say?\n<<speaker, trip>>\nI... I don’t know what you’re talking about.\n<<speaker, claude>>\nWe should talk somewhere more private. It’s not safe here.\n[[KERTOJA8]]",
+		"position": {
+			"x": "1100",
+			"y": "16300"
+		},
+		"colorID": 0
+	},
+	{
+		"title": "KERTOJA8",
+		"tags": "",
+		"body": "<<speaker, kertoja>>\nClaude pulls Trip aside, his face tense with urgency. He explains that he works for ISAAC, the space agency searching for life beyond Earth. Claude warns Trip that ISAAC has been tracking them and is now hunting them down. Time is running out, and if they want to make it back to their planet, they must act quickly.\n<<speaker, trip>>\nThank you for warning me. But I can’t leave yet. My spaceship is damaged. I found the first part, but I still need to replace the motor and the heat-regulating shield. Without them, the shii— I mean ship—cannot fly.\n<<speaker, claude>>\nI heard about that shield earlier. I know where we can find the one. As for the new motor, we have some stashed inside the base. We need to get there.\n<<speaker, trip>>\nBut among all those things, I also need to find naclide for my people.\n<<speaker, claude>>\nNaclide? What’s that? Can I see what it looks like?\n<<speaker, trip>>\nOf course. Here.\n (Trip shows Claude a picture of naclide—like a chemical formula for salt or something similar.)\n <<speaker, claude>>\n Hmm... I think—no, I’m pretty sure—I can help you with that too. How much do you need?\n <<speaker, trip>>\n Wait... Really? Here? On this planet? There’s actually naclide here?\n <<speaker, claude>>\n Yes. But we call it salt. I can get you some, but first, we need to fix your spaceship. If ISAAC catches you, God knows what will happen to you. We don’t have time to waste!\n <<speaker, trip>>\n Okay. Where do we go now?\n <<speaker, claude>>\n To the ISAAC base. Everything we need is there. Let’s go!\n [[ETEENPÄIN4]]",
+		"position": {
+			"x": "1100",
+			"y": "16600"
+		},
+		"colorID": 0
+	},
+	{
+		"title": "ETEENPÄIN4",
+		"tags": "",
+		"body": "<<speaker, kertoja>>\nTrip, Bip, and Claude have reached the ISAAC base. Inside, there are numerous guards they must avoid in order to survive.\n<<speaker, claude>>\nAlright, that is ISAAC's base. There's a secret route that leads to a hidden entrance at the back of the base. Follow that path, avoid guards, and it´ll allow you to slip in unnoticed. I go from the main entrance and grab a new motor. Meet me at the hidden entrance.\n<<speaker, trip>>\nOkay. Be careless, I mean careful!\n[[Puzzle7]]",
+		"position": {
+			"x": "1100",
+			"y": "16900"
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Puzzle7",
+		"tags": "",
+		"body": "Puzzle 7 alkaa\n[[Puzzle7 suoritettu]]",
+		"position": {
+			"x": "1150",
+			"y": "17200"
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Puzzle7 suoritettu",
+		"tags": "",
+		"body": "<<speaker, claude>>\nGood, you made it. I’ve got good news and bad news. The good news is, I’ve got the motor. The bad news is, the third part is locked inside a secret bunker where Winifred stores her alien technology. Getting inside will trigger a warning, so we don’t have much time before someone notices us.\n<<speaker, trip>>\nOkay. We’ll have to try. Let’s go.\n[[KERTOJA9]]",
+		"position": {
+			"x": "1100",
+			"y": "17400"
+		},
+		"colorID": 0
+	},
+	{
+		"title": "KERTOJA9",
+		"tags": "",
+		"body": "<<speaker, kertoja>>\nTrip, Bip, and Claude arrive at the entrance to the secret bunker. Claude tries his keycard, but to his frustration, it doesn’t work.\n<<speaker, claude>>\nOh no. My keycard doesn’t work anymore. They must have changed the locks.\n<<speaker, trip>>\nI got this. Hey, Bip, think you can hack the door’s lock?\n<<speaker, bip>>\nI'm sure I can. Just watch.\n<<speaker, claude>>\nWhat a cute little alien robot. What’s your name, little guy?\n<<speaker, bip>>\nMy name is CR-935, but you can call me Bip. Nice to meet you, Claude from Planet Earth.\n<<speaker, claude>>\nNice to meet you too, Bip.\n<<speaker, trip>>\nGreat, now can we focus? We don’t have time to chat—we need that door open!\n<<speaker, bip>>\nOf course. Just give me a moment...\n[[Puzzle8]]",
+		"position": {
+			"x": "1100",
+			"y": "17700"
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Puzzle8",
+		"tags": "",
+		"body": "Puzzle 8 alkaa\n[[Puzzle8 suoritettu]]",
+		"position": {
+			"x": "1150",
+			"y": "18000"
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Puzzle8 suoritettu",
+		"tags": "",
+		"body": "<<speaker, claude>>\nGood, nobody’s inside the bunker. We need to move now and get the shield. They could lock down the entire base any second.\n<<speaker, kertoja>>\nClaude, Trip and Bip get their way to a secret bunker and find the last piece. But everything's not going so smoothly as they wish and seconds after they get out the bunker there Winifred makes an announcement.\n<<speaker, winifred>>\nAttention all personnel! Intruders are inside the base! I want those aliens and their little traitor friend caught immediately!\n<<speaker, trip>>\nWhy does she have to be so dramatic?\n<<speaker, claude>>\nWe have to go! Exit through the back entrance—now!\n[[FINAL SOLUTION]]",
+		"position": {
+			"x": "1100",
+			"y": "18200"
+		},
+		"colorID": 0
+	},
+	{
+		"title": "FINAL SOLUTION",
+		"tags": "",
+		"body": "<<speaker, kertoja>>\nTrip, Bip, and Claude sprint back to forest, ISAAC’s alarms echoing in the distance. They rush toward the hidden spaceship, camouflaged beneath branches. Heart pounding, Trip pulls off the final cover. The ship stands silent, waiting. They dash inside, reaching the control panel.\n<<speaker, claude>>\nThey're right behind us. You have minutes—maybe less.\n<<speaker, trip>>\nThis is it. We fix one system first. No time for second chances.\n<<speaker, claude>>\nWhat do we fix first?\n<<speaker, trip>>\nI... I don’t know! Bip, Claude—what do we do?!\n[[Fix the Engine First|Valinta1]]\n[[Fix the Solar Sail First|Valinta2]]\n[[Fix the Heat Shield|Valinta3]]",
+		"position": {
+			"x": "1100",
+			"y": "18500"
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Valinta1",
+		"tags": "",
+		"body": "",
+		"position": {
+			"x": "800",
+			"y": "18800"
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Valinta2",
+		"tags": "",
+		"body": "",
+		"position": {
+			"x": "1100",
+			"y": "18800"
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Valinta3",
+		"tags": "",
+		"body": "",
+		"position": {
+			"x": "1400",
+			"y": "18800"
+		},
+		"colorID": 0
+	}
+]
